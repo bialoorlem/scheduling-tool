@@ -1,3 +1,5 @@
+//Make sure the current date displays here
+
 function showCurrentDate() {
   let date = document.getElementById("currentDay");
 
