@@ -1,5 +1,6 @@
 //Make sure the current date displays here
 
+
 function showCurrentDate() {
   let date = document.getElementById("currentDay");
 
@@ -9,38 +10,20 @@ function showCurrentDate() {
 }
 showCurrentDate();
 
-//Local Storage help from: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
-// localStorage.setItem('myCat', 'Tom');
-
-///JS help from Paul
+//Saving in local storage, received help from Jackson and Bryan
 
 
-  const saveEl = document.getElementById(“save”);
-  saveEl.addEventListener(“click”, function(){
-    saveInput();
-  });
-  saveInput(){
-    localStorage.getItem(“userInput”, userInput);
-  }
+  document.querySelectorAll(".btn").forEach(function(button){
+    button.addEventListener("click", function(){
+    saveInput();  
 
+    })
 
-//Saving in local storage
-
-
-
-function saveInput() {
-
- const save = document.getElementById("save");
-//  save.addEventListener("click", saveInput);
-
- if(save){
-  save.addEventListener("click", saveInput);
-
-
-  let savedValue = localStorage.getItem("userInput");
-  console.log("hey");
-  }
+  })
   
-}
-  saveInput();
+
+  function saveInput() {
+    localStorage.setItem("userInput", userInput);
+  }
+
