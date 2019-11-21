@@ -41,7 +41,7 @@ showCurrentDate();
 //Saving in local storage, received help from Jackson and Bryan
 
 
-
+ 
   document.querySelectorAll(".btn").forEach(function(save){
     save.addEventListener("click", function(){
       let inputVal = save.getAttribute("value");
