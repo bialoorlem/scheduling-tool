@@ -10,3 +10,5 @@ The information within the hour is stored on local storage and will appear when 
 (/relative/path/to/screenshot1.jpg?raw=true)
 
 (/relative/path/to/screenshot2.jpg?raw=true)
+
+https://bialoorlem.github.io/scheduling-tool/
