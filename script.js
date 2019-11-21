@@ -1,3 +1,4 @@
+
 //Make sure the current date displays here
 storageData = window.localStorage;
 // let savedValue = storageData.getItem("userInput");
@@ -38,7 +39,7 @@ function showCurrentDate() {
 showCurrentDate();
 
 
-//Saving in local storage, received help from Jackson and Bryan
+//Saving in local storage, received help from Jackson, Bryan, and William
 
 
  
@@ -79,33 +80,4 @@ function pullInput(){
   }
 
 }
-
-      // function initInput() {
-      //   const buttonEl = document.querySelector("#button");
-      //   buttonEl.addEventListener("click", function() {
-      //     const input = document.getElementById("input").value;
-      //     const dataStr = localStorage.getItem("input") || "[]";
-      //     // if(!dataStr){
-      //     //   dataStr = '[]'
-      //     // }
-      //     const data = JSON.parse(dataStr);
-      //     data.push(input);
-      //     localStorage.setItem("input", JSON.stringify(data));
-      //   });
-      // }
-      // initInput();
-
-      // function initOutput() {
-      //   const outputEl = document.getElementById("output");
-      //   setInterval(function() {
-      //     outputEl.innerHTML = "";
-      //     const dataStr = localStorage.getItem("input") || "[]";
-      //     const data = JSON.parse(dataStr);
-      //     data.forEach(function(output) {
-      //       const h1El = document.createElement("h1");
-      //       h1El.innerHTML = output;
-      //       outputEl.append(h1El);
-      //     });
-      //   }, 100);
-      // }
-      // initOutput();
+ 
