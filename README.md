@@ -7,3 +7,6 @@ The user is able to input information for each hour and save the hour.
 
 The information within the hour is stored on local storage and will appear when refreshed.
 
+(/relative/path/to/screenshot1.jpg?raw=true)
+
+(/relative/path/to/screenshot2.jpg?raw=true)
